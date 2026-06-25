@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dash-relate"
+version = "0.1.0"
+description = "Ontology, lineage, and relationship definitions for AI usage on Databricks"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Darshan Shah", email = "darshan.innovation@icloud.com" }]
+keywords = ["databricks", "ontology", "lineage", "knowledge-graph", "ai"]
+dependencies = ["ipywidgets>=8.0"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "hatch"]
+
+[project.urls]
+Homepage = "https://github.com/darshan-innovation/dash-relate"
