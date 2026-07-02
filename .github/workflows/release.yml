@@ -222,7 +222,7 @@ jobs:
           cp dist/*.whl marketplace-bundle/files/
 
           # Generate companion notebook
-          cat > marketplace-bundle/files/DashOntology — Ontology and Lineage_Quickstart.py << NBEOF
+          cat > marketplace-bundle/files/DashOntology_Quickstart.py << NBEOF
           # Databricks notebook source
           # MAGIC %md
           # MAGIC # DashOntology — Ontology and Lineage v${VERSION} for Databricks
