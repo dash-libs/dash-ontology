@@ -1,7 +1,7 @@
-## DashOntology — Ontology and Lineage v0.1.5
+## DashOntology — Ontology and Lineage v0.1.6
 
-**Released:** 2026-07-06
-**Previous:** v0.1.4
+**Released:** 2026-07-20
+**Previous:** v0.1.5
 
 
 
@@ -12,12 +12,12 @@
 
 ### Install
 ```bash
-pip install dash-ontology==0.1.5
+pip install dash-ontology==0.1.6
 ```
 
 ### Quick Start (Databricks notebook)
 ```python
-%pip install dash-ontology==0.1.5
+%pip install dash-ontology==0.1.6
 import dashontology
 dashontology.launch()
 ```
